@@ -23,7 +23,16 @@ git clone https://github.com/anonvict/SF-V2
 # Masuk ke Direktori
 cd SF-V2
 
-# Jalankan
+# Install fish
+apt install fish -y
+
+# Test
+fish
+
+# exit untuk keluar 
+exit
+
+# Jalankan script!
 bash run.sh
 ```
 <br>
