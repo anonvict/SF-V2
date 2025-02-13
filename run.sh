@@ -56,7 +56,7 @@ function fish_prompt_file
     # color ada white, blue, yellow, red, purple, brblack, cyan, green
     set_color -o white --bold
     # Nah ini nih, tanda '' bisa kalian ubah.
-    echo -n "  "
+    echo -n " 📨 "
 
     # atau bisa make ini nih, tinggal hilangin tanda pagar # di depan nya!
 #    echo -n " 🦁 "
@@ -65,6 +65,7 @@ function fish_prompt_file
 #    echo -n "  "
 #    echo -n "  "
 #    echo -n "  "
+#    echo -n "  "
 
 
     set_color normal
@@ -106,7 +107,7 @@ echo ""
 echo -ne "📝 Masukkan nama untuk tampilan figlet: "
 read NAMA_PENGGUNA
 
-if ! grep -Fxq "figlet -f slant \"$NAMA_PENGGUNA\" && echo && echo -e '\$(date) 🦁'" "$BASHRC"; then
+if ! grep -Fxq "figlet -f slant \"$NAMA_PENGGUNA\" && echo && date" "$BASHRC"; then
     echo "figlet -f slant \"$NAMA_PENGGUNA\" && echo && date" >> "$BASHRC"
 fi
 
