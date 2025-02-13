@@ -1,4 +1,8 @@
 # SF-V2
+![Platform](https://img.shields.io/badge/platform-Termux-red)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Lisensi](https://img.shields.io/badge/license-MIT-blue)
+
 **Sebuah program modified tampilan shell khas Termux untuk memudahkan & mempercepat tugas di terminal dengan bantuan package Fish 🐟**
 <details>
   <summary>💡 Sumber :</summary>
