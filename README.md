@@ -10,7 +10,6 @@
   
  - *Di kode oleh **x7cyber** (@cyberm_)*  
  - *Disederhanakan oleh **(@anonvict)***
- - *Ya memang kami sama 😹*
 </details>
 
 
