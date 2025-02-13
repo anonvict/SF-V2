@@ -52,10 +52,64 @@ nano ~/.config/fish/config.fish
 ```
 Disana ada tanda pagar '#' Baca dan pahami pengubahan nya. bisa kamu ganti dengan emoji, atau tanda khusus.
 ```bash
+# Bisa menjadi
 echo -e " 🦊 "
 # Atau
 echo -e " > "
 # Ataupun
 echo -e " anon@vict "
 ```
-**tergantung kalian!**
+**Semua ikon tergantung kesukaan kamu!**
+
+## 🎨 Tema
+konfigurasi tema berada di :
+```bash
+# Masuk direktori
+cd ~/.termux/
+
+# list
+ls
+```
+**untuk warna background yaitu kecoklatan, dan kursor berwarna putih dengan blink atau kedip setiap 600ms, semua itu dapat kamu ubah di tempat masing-masing.**
+
+```bash
+# Masih di direktori
+cd ~/.termux/
+
+# untuk warna background & cursor
+nano colors.properties
+
+# untuk penambahan key & speed kursor
+nano termux.properties
+```
+**Jika kamu ingin merubah warna background, dengan bantuan plugin termux atau `Termux-Style` kamu bisa download dari Fdroid 📥**
+
+**Atau bisa kamu kunjungi github dari `x7cyber` dan cari repo `Style_Fish` kemudian scroll kebawah hingga kalian menemukan unduhan apk Termux-style dalam bentuk Mediafire 🚀**
+```bash
+https://github.com/x7cyber/Style_Fish
+```
+**Ikuti petunjuk cara menggunakannya disana, tenang saja, dia menjelaskan dalam bentuk gambar, maka nya mudah dipahami. (ubah/pilih style sesuai keinginan setelah menginstal apk Termux-styling**
+
+## 🔺Hapus Konfigurasi
+sayang sekali jika kamu merasa bosan dengan tampilannya, ikuti pentunjuk di bawah ini untuk mencopot secara manual!
+```bash
+# pergi ke direktori utama
+nano .bashrc
+
+nonaktifkan semua command termasuk :
+`exec fish`
+```
+**sudah! simpel ✌️ jika ingin mengembalikan semula, tinggal tambahkan kata `exec fish` di file `.bashrc`**
+#
+## 🧐 SF-V3
+**Yah, kemungkinan akan ada dengan fitur yang lebih menarik & lengkap**
+
+**Terimakasih telah membaca dokumentasi ini, jika kurang lengkap saya mohon maaf 🐟 karena yang lengkap hanya ada di repo sebelumnya `x7cyber/Style_Fish`**
+
+<details>
+  <summary>★ Jejak :</summary>
+<br>
+  
+ **Apakah anda ingin meninggalkan jejak? (so give me a star ★ in this repo) Thanks!**
+</details>
+
