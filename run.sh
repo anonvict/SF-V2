@@ -17,6 +17,7 @@ cek_dan_install() {
 }
 
 # entahlah, siapa tau grep belum ada.
+cek_dan_install fish
 cek_dan_install grep
 cek_dan_install figlet
 cek_dan_install lsd
