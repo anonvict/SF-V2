@@ -91,7 +91,7 @@ https://github.com/x7cyber/Style_Fish
 **Ikuti petunjuk cara menggunakannya disana, tenang saja, dia menjelaskan dalam bentuk gambar, maka nya mudah dipahami. (ubah/pilih style sesuai keinginan setelah menginstal apk Termux-styling**
 
 ## 🔺Hapus Konfigurasi
-sayang sekali jika kamu merasa bosan dengan tampilannya, ikuti pentunjuk di bawah ini untuk mencopot secara manual!
+sayang sekali jika kamu merasa bosan dengan tampilannya, ikuti perintah di bawah ini untuk mencopot secara manual!
 ```bash
 # pergi ke direktori utama
 nano .bashrc
