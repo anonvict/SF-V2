@@ -26,6 +26,36 @@ cd SF-V2
 # Jalankan
 bash run.sh
 ```
+<br>
 
+**script ini di program dengan bahasa bash/sh agar lebih ringan & mudah daripada sebelumnya yang versi `Style_Fish`**
 
+## 📝 Konfigurasi
+letak config fish utama dari sc ini ada di :
+```bash
+nano ~/.config/fish/config.fish
+```
+dan letak tema, color, cursor dll ada di :
+```bash
+cd ~/.termux/
+```
+pengaturan default :
+```bash
+nano .bashrc
+```
+**Masing-masing memiliki fungsi untuk mengatur & menjalankan program setiap kali termux di buka.**
 
+## 🛠️ Modified
+untuk mengubah icon atau tanda di awal command, kamu pergi ke config.fish :
+```bash
+nano ~/.config/fish/config.fish
+```
+Disana ada tanda pagar '#' Baca dan pahami pengubahan nya. bisa kamu ganti dengan emoji, atau tanda khusus.
+```bash
+echo -e " 🦊 "
+# Atau
+echo -e " > "
+# Ataupun
+echo -e " anon@vict "
+```
+**tergantung kalian!**
