@@ -115,10 +115,3 @@ nonaktifkan semua command termasuk :
 
 **Terimakasih telah membaca dokumentasi ini, jika kurang lengkap saya mohon maaf 🐟 karena yang lengkap hanya ada di repo sebelumnya `x7cyber/Style_Fish`**
 
-<details>
-  <summary>★ Jejak :</summary>
-<br>
-  
- **Apakah anda ingin meninggalkan jejak? (so give me a star ★ in this repo) Thanks!**
-</details>
-
