@@ -1,6 +1,5 @@
 #!/data/data/com.termux/files/home/../usr/bin/bash
 # SF-V2 🐟 || anonvict || cyberm_
-# give me star in the repo ★
 
 clear
 
